@@ -5,1346 +5,884 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="owl-carousel.css">
+    <link rel="stylesheet" href="footer.css">
 
     <title>ifood</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-        referrerpolicy="no-referrer"/>
 
-        <style>
-            .owl-prev {
-                left: -30px;
-            }
-            .owl-prev {
-                right: -30px;
-            }
-            .owl-prev, .owl-next span {
-                position: absolute;
-                top: 30%;
-            }
-            .owl-prev span, .owl-next span {
-                font-size: 60px;
-                color: #787878;
-            }
-            .owl-theme .owl-nav [class*="owl-"]:hover {
-                background-color: transparent;
-            }
-    
-    
-            
-        </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
     <main>
-        <div class="header">
+        <div class=" header fixed">
 
-            <div class="form">
-                <img src="images/logo.svg" class="logo" />
-                <div class="d-flex align-items-center">
-                    <img src="images/restaurant.png" alt="imgResta" style="width: 36px;">
-                    <p>restaurante</p>
+
+            <div class="form d-flex align-items-center">
+                <img src="assets/images/logo.svg" class="logo" />
+
+                <div class="restaurant-nav">
+                    <img src="assets/images/restaurant.png" alt="imgResta">
+                    <span>Restaurante</span>
                 </div>
 
                 <div class="search">
-                    <img src="images/search.svg" alt="" />
+                    <img src="assets/images/search.svg" alt="" />
                     <input type="text" placeholder="Busque por item ou loja" />
                 </div>
             </div>
 
 
             <div class="d-flex justify-content-end">
-                <span>Entrega em</span>
+                <div class="entrega">
+                    <span>Entregar em</span>
+                    <p class="d-flex flex-row align-items-center"> <img src="assets/images/home.svg" alt="home"> R. Engenheira Valdirene Martins, 66</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center nav-entrega">
+                <img src="assets/images/sale.png">
+                <img src="assets/images/profile.png">
+                <img src="assets/images/sacola.png">
 
-                <p>R. Engenheira Valdirene Martins, 66</p>
-                <div>
-                    <img src="images/sale.png " alt=" ">
-                    <img src="images/profile.png " alt=" ">
-                    <img src="images/sacola.png " alt=" ">
+            </div>
+        </div>
 
+        <div>
+            <div class="d-flex justify-content-center slim-card">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.077 6.824a1.057 1.057 0 0 1 1.497-.002l2.792 2.792a4.628 4.628 0 0 0 .765 5.53 4.628 4.628 0 0 0 5.53.765l2.72 2.72a1.057 1.057 0 0 1 0 1.495L17.255 39.252a1.057 1.057 0 0 1-1.495 0l-2.85-2.85a4.626 4.626 0 0 0-1.008-5.028
+                        4.627 4.627 0 0 0-5.028-1.007L4.02 27.514a1.057 1.057 0 0 1-.002-1.493L23.077 6.824z"
+                        fill="#CBE6D6"></path>
+                    <mask id="mask0" maskUnits="userSpaceOnUse" x="3" y="6" width="35" height="34">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M23.077 6.824a1.057 1.057 0 0 1 1.497-.002l2.792 2.792a4.628 4.628 0 0 0 .765 5.53 4.628 4.628 0 0 0 5.53.765l2.72 2.72a1.057 1.057 0 0 1 0 1.495L17.255 39.252a1.057 1.057 0 0 1-1.495 0l-2.85-2.85a4.626 4.626 0 0 0-1.008-5.028
+                        4.627 4.627 0 0 0-5.028-1.007L4.02 27.514a1.057 1.057 0 0 1-.002-1.493L23.077 6.824z"
+                            fill="#E7A74E"></path>
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path d="M23.833 5.437l13.755 13.755-6.592 6.592L17.24 12.03l6.592-6.593z" fill="#fff">
+                        </path>
+                    </g>
+
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.662 27.988a1.684 1.684 0 0 1 0-2.382l7.472-7.472a.627.627 0 0 1 .887.887L6.55 26.493a.43.43 0 0 0 0 .608l.044.044a.627.627 0 1 1-.887.887l-.044-.044zM15.838 16.567a.627.627 0 0 1 0 .887l-.314.313a.627.627 0 0 1-.887-.886l.314-.314a.627.627
+                        0 0 1 .887 0z" fill="#fff"></path>
+                    <path
+                        d="M11.374 26.682a.285.285 0 0 1-.088-.225.315.315 0 0 1 .32-.319l11.779-.109a.302.302 0 0 1 .313.314.315.315 0 0 1-.32.318l-11.779.11a.339.339 0 0 1-.225-.089z"
+                        fill="#50A773"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.094 26.663a.554.554 0 0 1-.033-.203.55.55 0 0 1 .55-.55l11.779-.108a.524.524 0 0 1 .538.538.549.549 0 0 1-.55.55l-11.779.108a.56.56 0 0 1-.385-.153.512.512 0 0 1-.12-.182zm.195-.206c-.001.09.02.158.088.225a.338.338 0 0 0 .225.088l11.779-.108a.315.315
+                        0 0 0 .319-.32.302.302 0 0 0-.313-.312l-11.78.109a.315.315 0 0 0-.318.318z" fill="#50A773">
+                    </path>
+                    <path
+                        d="M16.05 23.886c-.716-.716-.727-1.912.024-2.663.752-.752 1.925-.762 2.663-.025.738.738.727 1.912-.024 2.663-.752.752-1.925.763-2.663.025zm2.232-2.232a1.246 1.246 0 0 0-1.76.016c-.479.478-.509 1.268-.017 1.76s1.26.485 1.76-.016c.479-.478.508-1.268.017-1.76z"
+                        fill="#50A773"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M15.887 24.05c-.801-.802-.815-2.143.028-2.986.842-.842 2.16-.854 2.986-.028.826.825.814 2.143-.028 2.985-.842.842-2.16.854-2.986.028zm2.232-2.233a1.018 1.018 0 0 0-1.437.013 1.018 1.018 0 0 0-.013 1.438c.404.404 1.027.398 1.438-.013.39-.39.414-1.036.012-1.438zm-2.044-.594c-.752.752-.74
+                        1.948-.025 2.663.738.738 1.912.727 2.663-.024.752-.752.763-1.925.025-2.663-.738-.738-1.911-.727-2.663.024zm.447.448a1.246 1.246 0 0 1 1.76-.017c.492.492.462 1.282-.016 1.76-.5.502-1.268.509-1.76.017s-.462-1.282.016-1.76z"
+                        fill="#50A773"></path>
+                    <path
+                        d="M16.227 31.58c-.716-.716-.727-1.912.024-2.664.73-.729 1.925-.762 2.663-.024.738.737.727 1.91-.024 2.663-.752.751-1.948.74-2.663.024zm2.232-2.233a1.246 1.246 0 0 0-1.76.016c-.479.479-.509 1.269-.017 1.76.492.492 1.26.485 1.76-.016.479-.478.486-1.29.017-1.76z"
+                        fill="#50A773"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.063 31.742c-.801-.801-.815-2.142.028-2.985.818-.818 2.158-.856 2.986-.028.825.826.814 2.143-.028 2.985-.844.844-2.184.83-2.986.028zm2.232-2.232a1.018 1.018 0 0 0-1.437.013 1.018 1.018 0 0 0-.013 1.438c.404.404 1.027.398 1.437-.013.388-.388.395-1.056.013-1.438zm-2.044-.594c-.752.752-.74
+                        1.948-.025 2.663.716.716 1.912.727 2.663-.024.752-.752.763-1.925.025-2.663-.738-.738-1.934-.704-2.663.024zm.447.448a1.246 1.246 0 0 1 1.76-.017c.47.47.462 1.282-.016 1.76-.501.502-1.268.509-1.76.017s-.462-1.282.016-1.76z"
+                        fill="#50A773"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M3.674 1.2l1.187 1.6.002.003c.115.144.29.234.474.234.125 0 .243-.059.322-.099l.011-.005.014-.007.013-.01a.585.585 0 0 0 .116-.832L4.628.485 4.626.482A.587.587 0 0 0 3.79.367a.585.585 0 0 0-.117.832zM5.85 4.136l5.097 6.884.002.002c.116.144.291.234.474.234a.58.58
+                        0 0 0 .358-.119l.002-.002a.585.585 0 0 0 .117-.832l-5.096-6.88-.002-.004a.587.587 0 0 0-.835-.115.585.585 0 0 0-.116.832zM10.55 2.365l2.744 7.603.001.002a.607.607 0 0 0 .625.381l.046-.008a.84.84 0 0 1 .035-.007l.012-.002h.03l.028-.01c.289-.116.474-.463.352-.772l-2.746-7.606v-.002c-.117-.29-.466-.474-.775-.35-.289.115-.475.461-.352.77zM8.54
+                        13.025l1.183.874a.58.58 0 0 0 .836-.144.582.582 0 0 0-.125-.834l-1.182-.852a.587.587 0 0 0-.833.117.582.582 0 0 0 .121.839zM3.252 9.152l3.884 2.825a.58.58 0 0 0 .357.118c.09 0 .185-.022.268-.062a.51.51 0 0 0 .213-.181.582.582 0 0 0-.128-.832L3.963
+                        8.197a.585.585 0 0 0-.837.121.582.582 0 0 0 .126.835zM3.537 15.655l4.688 1.225c.026.012.053.02.083.025.03.005.058.005.077.005h.003a.58.58 0 0 0 .57-.446.582.582 0 0 0-.419-.717l-4.7-1.227a.583.583 0 0 0-.72.415.582.582 0 0 0 .418.72z"
+                        fill="#fff"></path>
+                </svg>
+
+
+                <span>Você tem 8 cupons! Aproveite seus descontos</span>
+                <button>
+                    <img src="assets/images/arrow_down.svg" alt="">
+                </button>
+            </div>
+        </div>
+        </div>
+
+        <div class="container margin-contents">
+
+
+            <!--class="col-lg-4 col-md-2 col-sm1" -->
+            <div class="owl-carousel owl-theme d-flex flex-row">
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Mercado-nov_20.webp" alt="Mercado" />
+                    <span>Mercado</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Promocoes-out_20.webp" alt="Promocoes" />
+                    <span>Promoções</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Lanches-out_20.webp" alt="Lanches" />
+                    <span>Lanches</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Brasileira-nov_20.webp" alt="Brasileira" />
+                    <span>Brasileira</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Acai-out_20.webp" alt="Acai" />
+                    <span>Açaí</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Padaria-out_20.webp" alt="Padaria" />
+                    <span>Padaria</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Doces_e_bolos-out_20.webp" alt="Doces_e_bolos" />
+                    <span>Doces & Bolos</span>
+                </div>
+
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/Salgados-out_20.webp" alt="Salgados" />
+                    <span>Salgados</span>
+                </div>
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/cafe.jpg" alt="Café" />
+                    <span>Café</span>
+                </div>
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/japones.jpg" alt="Japonês" />
+                    <span>Japonês</span>
+                </div>
+                <div class="banner banner-text">
+                    <img class="item" src="assets/images/category/marmita.jpg" alt="Marmita" />
+                    <span>Marmita</span>
                 </div>
 
             </div>
-        </div>
-        <div class="d-flex justify-content-center" style="background-color: green;">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.077 6.824a1.057 1.057 0 0 1 1.497-.002l2.792 2.792a4.628 4.628 0 0 0 .765 5.53 4.628 4.628 0 0 0 5.53.765l2.72 2.72a1.057 1.057 0 0 1 0 1.495L17.255 39.252a1.057 1.057 0 0 1-1.495 0l-2.85-2.85a4.626 4.626 0 0 0-1.008-5.028 4.627 4.627 0 0 0-5.028-1.007L4.02 27.514a1.057 1.057 0 0 1-.002-1.493L23.077 6.824z"
-                    fill="#CBE6D6"></path>
-                <mask id="mask0" maskUnits="userSpaceOnUse" x="3" y="6" width="35" height="34">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.077 6.824a1.057 1.057 0 0 1 1.497-.002l2.792 2.792a4.628 4.628 0 0 0 .765 5.53 4.628 4.628 0 0 0 5.53.765l2.72 2.72a1.057 1.057 0 0 1 0 1.495L17.255 39.252a1.057 1.057 0 0 1-1.495 0l-2.85-2.85a4.626 4.626 0 0 0-1.008-5.028 4.627 4.627 0 0 0-5.028-1.007L4.02 27.514a1.057 1.057 0 0 1-.002-1.493L23.077 6.824z"
-                        fill="#E7A74E"></path>
-                </mask>
-                <g mask="url(#mask0)">
-                    <path d="M23.833 5.437l13.755 13.755-6.592 6.592L17.24 12.03l6.592-6.593z" fill="#fff"></path>
-                </g>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.826 13.542a.47.47 0 0 1 .666 0l.862.862a.47.47 0 0 1-.665.666l-.863-.863a.47.47 0 0 1 0-.665zm2.588 2.587a.47.47 0 0 1 .665 0l1.725 1.725a.47.47 0 1 1-.666.665l-1.724-1.724a.47.47 0 0 1 0-.666zm3.45 3.45a.47.47 0 0 1 .665 0l1.724 1.725a.47.47 0 0 1-.665.665l-1.725-1.725a.47.47 0 0 1 0-.665zm3.449 3.45a.47.47 0 0 1 .665 0l.863.862a.47.47 0 1 1-.666.665l-.862-.862a.47.47 0 0 1 0-.665z"
-                    fill="#50A773"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.662 27.988a1.684 1.684 0 0 1 0-2.382l7.472-7.472a.627.627 0 0 1 .887.887L6.55 26.493a.43.43 0 0 0 0 .608l.044.044a.627.627 0 1 1-.887.887l-.044-.044zM15.838 16.567a.627.627 0 0 1 0 .887l-.314.313a.627.627 0 0 1-.887-.886l.314-.314a.627.627 0 0 1 .887 0z"
-                    fill="#fff"></path>
-                <path d="M11.374 26.682a.285.285 0 0 1-.088-.225.315.315 0 0 1 .32-.319l11.779-.109a.302.302 0 0 1 .313.314.315.315 0 0 1-.32.318l-11.779.11a.339.339 0 0 1-.225-.089z"
-                    fill="#50A773"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.094 26.663a.554.554 0 0 1-.033-.203.55.55 0 0 1 .55-.55l11.779-.108a.524.524 0 0 1 .538.538.549.549 0 0 1-.55.55l-11.779.108a.56.56 0 0 1-.385-.153.512.512 0 0 1-.12-.182zm.195-.206c-.001.09.02.158.088.225a.338.338 0 0 0 .225.088l11.779-.108a.315.315 0 0 0 .319-.32.302.302 0 0 0-.313-.312l-11.78.109a.315.315 0 0 0-.318.318z"
-                    fill="#50A773"></path>
-                <path d="M16.05 23.886c-.716-.716-.727-1.912.024-2.663.752-.752 1.925-.762 2.663-.025.738.738.727 1.912-.024 2.663-.752.752-1.925.763-2.663.025zm2.232-2.232a1.246 1.246 0 0 0-1.76.016c-.479.478-.509 1.268-.017 1.76s1.26.485 1.76-.016c.479-.478.508-1.268.017-1.76z"
-                    fill="#50A773"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.887 24.05c-.801-.802-.815-2.143.028-2.986.842-.842 2.16-.854 2.986-.028.826.825.814 2.143-.028 2.985-.842.842-2.16.854-2.986.028zm2.232-2.233a1.018 1.018 0 0 0-1.437.013 1.018 1.018 0 0 0-.013 1.438c.404.404 1.027.398 1.438-.013.39-.39.414-1.036.012-1.438zm-2.044-.594c-.752.752-.74 1.948-.025 2.663.738.738 1.912.727 2.663-.024.752-.752.763-1.925.025-2.663-.738-.738-1.911-.727-2.663.024zm.447.448a1.246 1.246 0 0 1 1.76-.017c.492.492.462 1.282-.016 1.76-.5.502-1.268.509-1.76.017s-.462-1.282.016-1.76z"
-                    fill="#50A773"></path>
-                <path d="M16.227 31.58c-.716-.716-.727-1.912.024-2.664.73-.729 1.925-.762 2.663-.024.738.737.727 1.91-.024 2.663-.752.751-1.948.74-2.663.024zm2.232-2.233a1.246 1.246 0 0 0-1.76.016c-.479.479-.509 1.269-.017 1.76.492.492 1.26.485 1.76-.016.479-.478.486-1.29.017-1.76z"
-                    fill="#50A773"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.063 31.742c-.801-.801-.815-2.142.028-2.985.818-.818 2.158-.856 2.986-.028.825.826.814 2.143-.028 2.985-.844.844-2.184.83-2.986.028zm2.232-2.232a1.018 1.018 0 0 0-1.437.013 1.018 1.018 0 0 0-.013 1.438c.404.404 1.027.398 1.437-.013.388-.388.395-1.056.013-1.438zm-2.044-.594c-.752.752-.74 1.948-.025 2.663.716.716 1.912.727 2.663-.024.752-.752.763-1.925.025-2.663-.738-.738-1.934-.704-2.663.024zm.447.448a1.246 1.246 0 0 1 1.76-.017c.47.47.462 1.282-.016 1.76-.501.502-1.268.509-1.76.017s-.462-1.282.016-1.76z"
-                    fill="#50A773"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.674 1.2l1.187 1.6.002.003c.115.144.29.234.474.234.125 0 .243-.059.322-.099l.011-.005.014-.007.013-.01a.585.585 0 0 0 .116-.832L4.628.485 4.626.482A.587.587 0 0 0 3.79.367a.585.585 0 0 0-.117.832zM5.85 4.136l5.097 6.884.002.002c.116.144.291.234.474.234a.58.58 0 0 0 .358-.119l.002-.002a.585.585 0 0 0 .117-.832l-5.096-6.88-.002-.004a.587.587 0 0 0-.835-.115.585.585 0 0 0-.116.832zM10.55 2.365l2.744 7.603.001.002a.607.607 0 0 0 .625.381l.046-.008a.84.84 0 0 1 .035-.007l.012-.002h.03l.028-.01c.289-.116.474-.463.352-.772l-2.746-7.606v-.002c-.117-.29-.466-.474-.775-.35-.289.115-.475.461-.352.77zM8.54 13.025l1.183.874a.58.58 0 0 0 .836-.144.582.582 0 0 0-.125-.834l-1.182-.852a.587.587 0 0 0-.833.117.582.582 0 0 0 .121.839zM3.252 9.152l3.884 2.825a.58.58 0 0 0 .357.118c.09 0 .185-.022.268-.062a.51.51 0 0 0 .213-.181.582.582 0 0 0-.128-.832L3.963 8.197a.585.585 0 0 0-.837.121.582.582 0 0 0 .126.835zM3.537 15.655l4.688 1.225c.026.012.053.02.083.025.03.005.058.005.077.005h.003a.58.58 0 0 0 .57-.446.582.582 0 0 0-.419-.717l-4.7-1.227a.583.583 0 0 0-.72.415.582.582 0 0 0 .418.72z"
-                    fill="#fff"></path>
-            </svg>
 
-
-            <span>Você tem 8 cupons! Aproveite seus descontos</span>
-            <button>
-                <img src="images/arrow_down.svg" alt="">
-            </button>
-        </div>
-
-
-        <div>
             <div class="owl-carousel owl-theme">
-                <img class="item" src="images/Mercado-nov_20.webp " alt="Mercado" />
-                <img class="item" src="images/Promocoes-out_20.webp " alt="Promocoes" />
-                <img class="item" src="images/Lanches-out_20.webp " alt="Lanches" />
-                <img class="item" src="images/Brasileira-nov_20.webp " alt="Brasileira" />
-                <img class="item" src="images/Acai-out_20.webp " alt="Acai" />
-                <img class="item" src="images/Padaria-out_20.webp " alt="Padaria" />
-                <img class="item" src="images/Doces_e_bolos-out_20.webp " alt="Doces_e_bolos" />
-                <img class="item" src="images/Pizza-out_20.webp " alt="Pizza" />
-
-            </div>
-            <div class="owl-carousel owl-theme">
-                <img class="item" src="images/banner1.webp " alt=" ">
-                <img class="item" src="images/banner2.webp " alt=" ">
-                <img class="item" src="images/banner3.webp " alt=" ">
-                <img class="item" src="images/banner4.webp " alt=" ">
-                <img class="item" src="images/banner5.webp " alt=" ">
-                <img class="item" src="images/banner6.webp " alt=" ">
-                <img class="item" src="images/banner7.webp " alt=" ">
+                <img class="card-figura" src="assets/images/banner1.webp">
+                <img class="card-figura" src="assets/images/banner2.webp">
+                <img class="card-figura" src="assets/images/banner3.webp">
+                <img class="card-figura" src="assets/images/banner4.webp">
+                <img class="card-figura" src="assets/images/banner5.webp">
+                <img class="card-figura" src="assets/images/banner7.webp">
             </div>
 
             <div class="owl-carousel owl-theme">
-                <img class="item" src="images/bebidas.webp" alt=" ">
-                <img class="item" src="images/new_grocfarma.webp " alt=" ">
-                <img class="item" src="images/new_GROCCON.webp" alt=" ">
+                <div class="banner banner-text">
+                    <img src="assets/images/category/bebidas.webp">
+                    <span>Bebidas</span>
+                </div>
+                <div class="banner banner-text">
+                    <img src="assets/images/category/new_grocfarma.webp">
+                    <span>Farmácia</span>
+                </div>
+                <div class="banner banner-text">
+                    <img src="assets/images/category/new_GROCCON.webp">
+                    <span>Conveniência</span>
+                </div>
             </div>
-        </div>
 
-        <div>
             <div>
-                <h2>Restaurante e mercados</h2>
-            </div>
-
-            <div class="d-flex flex-row">
                 <div>
-                    <button>Entrega</button>
+                    <h2>Últimas lojas</h2>
                 </div>
-                <div>
-                    <button>Cozinhas</button>
-                </div>
-                <div>
-                    <button>Pagamento</button>
-                </div>
-                <div>
-                    <button>Distância</button>
-                </div>
-                <div>
-                    <button>Supermecado</button>
-                </div>
-                <div>
-                    <button>Ordenar</button>
-                </div>
-            </div>
-        </div>
 
-        <div>
-            <ul>
-                <div class="d-flex flex-row">
-                    <li>
-                        <div  class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/cc48613b-6cf0-49ea-bee3-dbd9bdae0765/201909241059_18gn_i.jpg"
-                                        alt="D'gust Refeições e Massas" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column"> 
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-               
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                  
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                 
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                   
-                        <div class="d-flex flex-column">
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-
-                                <div>
-                                    <img loading="lazy" src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba" class="restaurant-card__img-logo" crossorigin="anonymous">
-                                </div>
-                                <h3>
-                                    <div>
-                                        <div>
-                                            <span>Açaí Beat - Uberaba</span>
-                                        </div>
-                                        <div>
-                                            <span aria-label="Avaliação: 4.8" tabindex="0" class="restaurant-rating" data-test-id="restaurant-rating__evaluation">
-                                                <span class="icon-marmita icon-marmita--star">
-                                                    <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5.483.314l1.128 2.39a.54.54 0 0 0 .405.308l2.522.383c.442.067.618.635.299.96l-1.825 1.86a.58.58 0 0 0-.155.499l.43 2.626c.076.46-.386.811-.78.594L5.25 8.694a.518.518 0 0 0-.502 0l-2.255 1.24c-.395.217-.857-.134-.782-.594l.431-2.626a.58.58 0 0 0-.155-.499L.163 4.355c-.32-.326-.143-.893.299-.96l2.522-.383a.54.54 0 0 0 .405-.308L4.517.314a.528.528 0 0 1 .966 0z">
-                                                        </path>
-                                                    </svg>
-                                                </span>4.8</span>
-                                            <span> • Açaí • 2,7 km</span>
-                                        </div>
-                                    </div>
-                                </h3>
-                                <div>
-                                    <span> 60-70 min • R$ 6,00</span>
-                                </div>
-                        </div>
-                    </li>
-
-                </div>
-            </ul>
-        </div>
-        <div class="d-flex justify-content-center">
-            <button>ver mais restaurantes e mercados</button>
-        </div>
-
-
-
-
-        <div>
-            <h4>Famosos no iFood</h4>
-            <a href="/delivery/descobrir/famosos-no-ifood/341eab3d-6fb5-4c4e-aaa5-083e2fa1c3cd ">Ver mais</a>
-        </div>
-        <div>
-            <div>
                 <div class="owl-carousel owl-theme">
-                    <div>
+
+                    <div class="column card restaurante-figure">
+                        <img src="assets/images/dk+1.webp" class="img-card-radius">
+                        <span class="title-restaurant">Dk+1 Lanches e Pizzas</span>
                         <div>
-                            <a href="/delivery/uberaba-mg/chiquinho-sorvetes---uberaba-02-santa-marta/07cb638a-55ad-4d17-8b06-04c39faea6a2 ">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/07cb638a-55ad-4d17-8b06-04c39faea6a2/202002021514_zF13_.jpeg "
-                                        alt="Chiquinho Sorvetes - Uberaba 02 ">
-                                    <p>Chiquinho Sorvetes - Uberaba 02</p>
-                                </div>
-                            </a>
+                            <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Pizza</span><span> • </span><span>3,0km</span></br>
+                            <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                6,50</span>
                         </div>
                     </div>
-                    <div>
+
+                    <div class="column card restaurante-figure">
+                        <img src="assets/images/dk+1.webp" class="img-card-radius">
+                        <span class="title-restaurant">Dk+1 Lanches e Pizzas</span>
                         <div>
-                            <a href="/delivery/uberaba-mg/mcdonalds---santa-maria-santa-maria/3ec68ed2-db26-4613-827f-ddcdd4777f76 ">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/201901041513_3ec68ed2-db26-4613-827f-ddcdd4777f76.jpg "
-                                        alt="Mcdonald 's - Santa Maria">
-                                    <p>Mcdonald's - Santa Maria</p>
-                                </div>
-                            </a>
+                            <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Pizza</span><span> • </span><span>3,0km</span></br>
+                            <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                6,50</span>
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <a data-test-id="discovery-card-link" href="/delivery/uberaba-mg/alex-lanches-conjunto-costa-telles-i/44f1e270-9318-45a6-80cf-c86e93a5cb60">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde//alex-lanches_ALEXLANCHES.jpg" alt="Alex Lanches">
-                                    <p>Alex Lanches</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/acai-beat---uberaba-conjunto-calixto-cecilio/91944af7-e13a-4129-93f8-a925c1284a79">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/202006181749_91944af7-e13a-4129-93f8-a925c1284a79.png"
-                                        alt="Açaí Beat - Uberaba">
-                                    <p>Açaí Beat - Uberaba</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/dom-bacon-centro/209de8a5-0a0e-4a5f-9cee-4a21253973d6">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/209de8a5-0a0e-4a5f-9cee-4a21253973d6/201905031436_LlId_p.png"
-                                        alt="Dom Bacon">
-                                    <p>Dom Bacon</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/brasileirinho-delivery--uberaba-sao-benedito/94091666-794f-49fc-88f1-97acf183547f">
-                                <div src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/94091666-794f-49fc-88f1-97acf183547f/202101301145_Rpqw_i.png"
-                                    alt="Brasileirinho Delivery – Uberaba">
-                                    <p>Brasileirinho Delivery – Uberaba</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/ilha-do-acai-3-estados-unidos/9597911a-8ba2-459d-9520-9a164d9ab53c">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/9597911a-8ba2-459d-9520-9a164d9ab53c/202007161223_IA5H_i.jpg"
-                                        alt="Ilha do Açai 3">
-                                    <p>Ilha do Açai 3</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/universitario-lanches-santa-maria/c8f21ac9-ab9f-4d76-bc76-1819eee84799">
-                                <div>
-                                    <img src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/c8f21ac9-ab9f-4d76-bc76-1819eee84799/202006292148_TWgl_.jpeg"
-                                        alt="Universitário Lanches">
-                                    <p>Universitário Lanches</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/toca-do-peixe-santa-marta/dd142466-236a-4edb-a33f-3153fb41d69a">
-                                <div src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/dd142466-236a-4edb-a33f-3153fb41d69a/202001221206_7K4x_i.jpg"
-                                    alt="Toca do Peixe">
-                                    <p>Toca do Peixe</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <a href="/delivery/uberaba-mg/pastelaria-do-edmur---delivery-santa-maria/1d6f736e-6ed2-4a90-88bb-1f2b8ecc493d">
-                                <div src="https://static-images.ifood.com.br/image/upload/t_thumbnail/logosgde/1d6f736e-6ed2-4a90-88bb-1f2b8ecc493d/202003091330_FTJu_.jpeg"
-                                    alt="Pastelaria do Edmur - Delivery">
-                                    <p>Pastelaria do Edmur - Delivery</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+
+
                 </div>
-            </div>
-        </div>
 
-
-        <section>
-            <h2>Explore por cidades</h2>
-            <a class="d-flex justify-content-end" style="color: red; cursor: pointer;">Ver todas</a>
-            <ul>
-                <div class="d-flex flex-row d-flex justify-content-between">
-
-                    <div class="d-flex flex-column">
-                        <li class="p-2 bd-highlight">Belo Horizonte</li>
-                        <li class="p-2 bd-highlight">Brasília</li>
-                        <li class="p-2 bd-highlight">Campinas</li>
-                        <li class="p-2 bd-highlight">Curitiba</li>
-                        <li class="p-2 bd-highlight">Goiânia</li>
-                    </div>
-                    <div class="d-flex flex-column">
-                        <li class="p-2 bd-highlight">Guarulhos</li>
-                        <li class="p-2 bd-highlight">João Pessoa</li>
-                        <li class="p-2 bd-highlight">Natal</li>
-                        <li class="p-2 bd-highlight">Niterói</li>
-                        <li class="p-2 bd-highlight">Porto Alegre</li>
-                    </div>
-                    <div class="d-flex flex-column">
-
-                        <li class="p-2 bd-highlight">Ribeirão Preto</li>
-                        <li class="p-2 bd-highlight">Rio de Janeiro</li>
-                        <li class="p-2 bd-highlight">Salvador</li>
-                        <li class="p-2 bd-highlight">Santo André</li>
-                        <li class="p-2 bd-highlight">Santos</li>
+                <div class="margin-tb">
+                    <div>
+                        <h2>Restaurante e mercados</h2>
                     </div>
 
-                    <div class="d-flex flex-column">
-
-                        <li class="p-2 bd-highlight">São Bernardo do Campo</li>
-                        <li class="p-2 bd-highlight">São Caetano do Sul</li>
-                        <li class="p-2 bd-highlight">São Paulo</li>
-                    </div>
-            </ul>
-
-            </div>
-        </section>
-
-        <section class="d-flex bd-highlight d-flex justify-content-between">
-            <div>
-                <h3>iFood</h3>
-
-                <ul class="list-group">
-                    <li>Site Institucional</li>
-                    <li>Fale conosco</li>
-                    <li>Carreiras</li>
-                    <li>iFood Colômbia</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Descubra</h3>
-
-                <ul class="list-group">
-                    <li>Cadastre seu Restaurante ou Mercado</li>
-                    <li>iFood Shop</li>
-                    <li>iFood Empresas</li>
-                    <li>Blog iFood Empresas</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Social</h3>
-
-                <ul class="list-group">
                     <div class="d-flex flex-row">
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
-                                />
-                            </svg>
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                                />
-                            </svg>
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
-                                />
-                            </svg>
-                        </li>
-                        <li>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-                                />
-                            </svg>
-                        </li>
+
+                        <div class="filtro">Entrega</div>
+                        <div class="filtro">Cozinhas</div>
+                        <div class="filtro">Pagamento</div>
+                        <div class="filtro">Distância</div>
+                        <div class="filtro">Supermecado</div>
+                        <div class="filtro">Ordenar
+                            <i class="fa fa-arrow-down"></i>
+                        </div>
+
                     </div>
-                </ul>
-            </div>
-
-
-
-        </section>
-
-        <div class="footer ">
-
-            <div class="d-flex flex-row">
-
-                <img src="images/logofooter.svg " alt=" " />
-                <div>
-                    <span>© Copyright 2020 - iFood
-                        <br />Todos os direitos reservados Todos os direitos reservados iFood com Agência de </br>Restaurantes
-                        Online S.A.</br>CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496, Vila Yara, Osasco/SP
-                        - CEP 06.020-902
-
-                    </span>
                 </div>
-                <div>
-                    <ul class="list-group">
-                        <div class="d-flex flex-row">
-                            <li>
-                                <a target="_blank" title="Termos e condições de uso" class="footer__text-link" href="/termos">Termos e condições de uso</a>
-                            </li>
-                            <li>
-                                <a href="https://institucional.ifood.com.br/abrindo-a-cozinha/codigo-de-etica" target="_blank" class="footer__text-link"
-                                    title="Código de conduta" rel="noopener noreferrer">Código de conduta</a>
-                            </li>
-                            <li>
-                                <a href="https://institucional.ifood.com.br/abrindo-a-cozinha/declaracao-privacidade-clientes/" target="_blank" class="footer__text-link"
-                                    title="Privacidade" rel="noopener noreferrer">Privacidade</a>
-                            </li>
-                            <li>
-                                <a target="_blank" title="Dicas de segurança" class="footer__text-link" href="/seguranca">Dicas de segurança</a>
-                            </li>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="d-flex flex-column">
+
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/AcaiBeat.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Açaí Beat - Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span>
+                                    <span class="checked">4.8</span><span>  •  </span><span>Açai</span><span>  •  </span><span>2,7km</span></br>
+                                </div>
+
+                                <div class="cards-restaurant">
+                                    <span>60</span><span>-</span><span>70 min</span><span>  •  </span><span>R$
+                                        6,00</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/brasileirinho.webp" class="img-card-radius">
+
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Brasileirinho Delivery - Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.4</span><span>  •  </span><span>Brasileira</span><span>  •  </span><span>5,0km</span></br>
+                                </div>
+                                <div class="cards-restaurant">
+                                    <span>44</span><span>-</span><span>54min</span><span>  •  </span><span>R$
+                                        3,99</span></div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/batata chefe.webp" class="img-card-radius">
+
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Batata do Cheff</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.9</span><span> • </span><span>Brasileira</span><span> • </span><span>3,0km</span></br>
+                                    <span>45</span><span>-</span><span>55
+                                        min</span><span> • </span><span class="gratis">Grátis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/trailer do acai.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Trailler do Acai</span>
+                                <div class="cards-restaurant">
+                                    <span class="checked">Novo!</span><span> • </span><span>Açai</span><span> • </span><span>1,8km</span></br>
+                                    <span>50</span><span>-</span><span>60 min</span><span> • </span><span>R$
+                                        3,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/Bk.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Burger King - Shopping Praça Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Lanches</span><span> • </span><span>4,8km</span></br>
+                                    <span>27</span><span>-</span><span>37 min</span><span> • </span><span>R$
+                                        11,49</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/trilhas do acai.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant"> Trilhas do Açaí & Lanches Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span>Lanches<span></span><span> • </span><span>1,3km</span></br>
+                                    <span>45</span><span>-</span><span>55
+                                        min</span><span> • </span><span class="gratis">Grátis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/trem minero.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Trem Mineiro Pizzas e Batatas</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Pizza</span><span> • </span><span>3,5km</span></br>
+                                    <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                        9,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/pitbull.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Pitbull Lanches Original</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Lanches</span><span> • </span><span>5,9km</span></br>
+                                    <span>32</span><span>-</span><span>42 min</span><span> • </span><span>R$
+                                        13,49</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/cascata.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Cascata Pizzas Express</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.8</span><span> • </span><span>Pizza</span><span> • </span><span>4,9km</span></br>
+                                    <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                        12,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/arisco.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Lanchonete da Fia - Arisco Lanches</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Lanches</span><span> • </span><span>4,3km</span></br>
+                                    <span>50</span><span>-</span><span>60 min</span><span> • </span><span>R$
+                                        6,90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/Macarrao e cia.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Macarrão e Cia</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Italiana</span><span> • </span><span>2,3km</span></br>
+                                    <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
+                                        7,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/don bacon.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Dom Bacon</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Lanches</span><span> • </span><span>5,8km</span></br>
+                                    <span>40</span><span>-</span><span>50 min</span><span> • </span><span>R$
+                                        6,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/quibe do ze.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Quibe do Zé Universitário</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.5</span><span> • </span><span>Árabe</span><span> • </span><span>2,5km</span></br>
+                                    <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
+                                        9,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/bobs.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Bob's - Center Shopping Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Lanches</span><span> • </span><span>4,0km</span></br>
+                                    <span>41</span><span>-</span><span>51 min</span><span> • </span><span>R$
+                                        8,49</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/chiquinho.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Chiquinho Sorvetes - Uberaba</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.9</span><span> • </span><span>Pizza</span><span> • </span><span>3,7km</span></br>
+                                    <span>22</span><span>-</span><span>32 min</span><span> • </span><span>R$
+                                        8,49</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/dk+1.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Dk+1 Lanches e Pizzas</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Pizza</span><span> • </span><span>3,0km</span></br>
+                                    <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                        6,50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/japanes.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Japonês da Federal</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Japonesa</span><span> • </span><span>2,4km</span></br>
+                                    <span>50</span><span>-</span><span>60 min</span><span> • </span><span>R$
+                                        5,00</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/frozen.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Frozen Fruit Yorgurteria & Açaí</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Açai</span><span> • </span><span>6,1km</span></br>
+                                    <span>53</span><span>-</span><span>63 min</span><span> • </span><span>R$
+                                        5,99</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/toca do peixe.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Toca do Peixe Delivery</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.4</span><span> • </span><span>Brasileira</span><span> • </span><span>4,7km</span></br>
+                                    <span>40</span><span>-</span><span>50 min</span><span> • </span><span>R$
+                                        9,00</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/padrinho.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Pizzaria do Padrinho Loja 2</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.8</span><span> • </span><span>Pizza</span><span> • </span><span>0,3km</span></br>
+                                    <span>30</span><span>-</span><span>40
+                                        min</span><span> • </span><span class="gratis">Grátis</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex flex-column">
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/alex.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Alex Lanches</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Lanches</span><span> • </span><span>7,7km</span></br>
+                                    <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                        8,00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/ilha acai.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Ilha do Açai 3</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.9</span><span> • </span><span>Lanches</span><span> • </span><span>6,7km</span></br>
+                                    <span>48</span><span>-</span><span>58 min</span><span> • </span><span>R$
+                                        15,49</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/mousse.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Mousse Cake</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Contemporânea</span><span> • </span><span>4,0km</span></br>
+                                    <span>48</span><span>-</span><span>58 min</span><span> • </span><span>R$
+                                        10,49</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/mcDonalds.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Mcdonald's - São Benedito (Uberaba)</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Brasileira</span><span> • </span><span>3,9km</span></br>
+                                    <span>26</span><span>-</span><span>36 min</span><span> • </span><span>R$
+                                        9,49</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/flavin.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Flavinho Lanches e Pizzas</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.3</span><span> • </span><span>Açai</span><span> • </span><span>3,7km</span></br>
+                                    <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
+                                        6,00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/delicia lili.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Delicias da lili</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Brasileira</span><span> • </span><span>0,9km</span></br>
+                                    <span>60</span><span>-</span><span>70
+                                        min</span><span> • </span><span class="gratis">Grátis</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/nagai.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Naga Sushi</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.8</span><span> • </span><span>Japonesa</span><span> • </span><span>5,7km</span></br>
+                                    <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
+                                        10,00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/hot chicken.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Hot Chicken - Mercês</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.7</span><span> • </span><span>Cozinha
+                                        Rápida</span><span> • </span><span>4,8km</span></br>
+                                    <span>55</span><span>-</span><span>65 min</span><span> • </span><span>R$
+                                        9,00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/toca peixe.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Toca do Peixe</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.4</span><span> • </span><span>Cozinha
+                                        Rápida</span><span> • </span><span>3,7km</span></br>
+                                    <span>71</span><span>-</span><span>81 min</span><span> • </span><span>R$
+                                        8,49</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row card restaurante-figure">
+                            <img src="assets/images/pastelito.webp" class="img-card-radius">
+                            <div class="line-img">
+                                <hr>
+                            </div>
+                            <div class="contents-cards">
+                                <span class="title-restaurant">Pastelito</span>
+                                <div class="cards-restaurant">
+                                    <span class="fa fa-star rating"></span><span class="checked">4.6</span><span> • </span><span>Cozinha
+                                        Rápida</span><span> • </span><span>6,2km</span></br>
+                                    <span>80</span><span>-</span><span>90 min</span><span> • </span><span>R$
+                                        9,00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row justify-content-center vermais-btn">
+                    <button class="vermais">Ver mais restaurantes e mercados</button>
+                </div>
+
+                <div class="d-flex flex-column footer">
+                    <div class="d-flex flex-row justify-content-between cidades">
+                        <h2>Explore por cidades</h2>
+                        <a class="d-flex justify-content-end">Ver todas</a>
+                    </div>
+
+                    <ul>
+                        <div class="d-flex flex-row align-text">
+
+                            <div class="d-flex flex-column list">
+
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Belo Horizonte</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Brasília</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Campinas</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Curitiba</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Goiânia</a></li>
+                            </div>
+                            <div class="d-flex flex-column list">
+
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Guarulhos</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">João Pessoa</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Natal</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Niterói</a></li>
+                                <li class="p-2 bd-highlight"> <a class="footer__text-link">Porto Alegre</a></li>
+                            </div>
+                            <div class="d-flex flex-column list">
+
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Ribeirão Preto</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Rio de Janeiro</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Salvador</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Santo André</a></li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">Santos</a></li>
+                            </div>
+
+                            <div class="d-flex flex-column list">
+
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">São Bernardo do Campo</a>
+                                </li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">São Caetano do Sul</a>
+                                </li>
+                                <li class="p-2 bd-highlight"><a class="footer__text-link">São Paulo</a></li>
+                            </div>
                         </div>
                     </ul>
+
                 </div>
 
+                <div class="d-flex flex-row footer footer__subtitle">
+                    <div class="d-flex flex-column list">
+                        <h3 class="cidades">iFood</h3>
+
+                        <ul class="list align-text">
+                            <li class="p-2 bd-highlight footer__text-link">Site Institucional</li>
+                            <li class="p-2 bd-highlight footer__text-link">Fale conosco</li>
+                            <li class="p-2 bd-highlight footer__text-link">Carreiras</li>
+                            <li class="p-2 bd-highlight footer__text-link">iFood Colômbia</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex flex-column list">
+                        <h3>Descubra</h3>
+
+                        <ul class="list align-text">
+                            <li class="p-2 bd-highlight footer__text-link">Cadastre seu Restaurante ou Mercado</li>
+                            <li class="p-2 bd-highlight footer__text-link">iFood Shop</li>
+                            <li class="p-2 bd-highlight footer__text-link">iFood Empresas</li>
+                            <li class="p-2 bd-highlight footer__text-link">Blog iFood Empresas</li>
+                        </ul>
+                    </div>
+
+                    <div class="d-flex flex-column footer-contents">
+                        <h3>Social</h3>
+
+                        <ul class="align-text">
+                            <div class="d-flex flex-row list">
+                                <li class="footer__text-link footer-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303
+                        1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                </li>
+                                <li class="footer__text-link footer-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325
+                        9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32
+                        6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </li>
+                                <li class="footer__text-link footer-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124
+                        1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09
+                        9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788
+                        99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                    </svg>
+                                </li>
+                                <li class="footer__text-link footer-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372
+                        1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99
+                        10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007
+                        3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478
+                        2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034
+                        1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="list">
+
+                    </div>
+
+                </div>
             </div>
-        </div>
+
+            <div class="footer">
+
+                <div class="d-flex flex-row">
+
+                    <img src="assets/images/logofooter.svg" />
+                    <div class="d-flex align-items-center footer-copy">
+                        <span>© Copyright 2020 - iFood
+                            Todos os direitos reservados Todos os direitos reservados iFood com Agência de
+                            Restaurantes Online S.A.</br>CNPJ 14.380.200/0001-21 / Avenida dos Autonomistas, nº 1496,
+                            Vila Yara,
+                            Osasco/SP
+                            - CEP 06.020-902
+
+                        </span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <ul class="list">
+                            <div class="d-flex flex-row">
+                                <li class="footer__text-link footer-termos">
+                                    <a>Termos e condições de uso</a>
+                                </li>
+                                <li class="footer__text-link footer-termos">
+                                    <a>Código de conduta</a>
+                                </li>
+                                <li class="footer__text-link footer-termos">
+                                    <a>Privacidade</a>
+                                </li>
+                                <li class="footer__text-link footer-termos">
+                                    <a>Dicas de segurança</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
     </main>
 
-    <script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-            loop: false,
-            margin: 10,
-            nav: true,
-            responsiveClass: true,
-            navigation: true,
-            navText: ["<i class='fa fa-long-arrow-left'>Arrow</i>","<i class='fa fa-long-arrow-right'>Arrow</i>"],
-            dots: false,
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                600: {
-                    items: 3,
-                },
-                1000: {
-                    items: 5,
-                }
-            }
-        })
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+
+
 </body>
 
 </html>

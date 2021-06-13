@@ -1,0 +1,121 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 12px;
+    align-items: center;
+    background-color: #F7F7F7;
+    height: 80px;
+}
+
+.header .logo {
+    width: 87px;
+    margin-right: auto;
+    height: 66px;
+    margin-left: 23px;
+    align-items: center;
+}
+
+.restaurant-nav {
+    padding-right: 25px;
+    font-weight: 550;
+    color: #717171;
+    font-size: 1.125rem;
+    margin-right: 55px;
+}
+
+.entrega {
+    margin-right: 60px;
+    padding-top: 15px
+}
+
+.entrega p {
+    font-weight: 500;
+}
+
+.entrega img {
+    width: 12.99px;
+    height: 12.99px;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.entrega span {
+    font-size: 0.75rem;
+    height: 12px;
+    color: #a6a5a5;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.nav-entrega img {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.fixed {
+    /* position: sticky; */
+    top: 0;
+    z-index: 0;
+}
+
+.form {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    margin-right: auto;
+}
+
+.form .search {
+    /* width: 100%; */
+    /* max-width: 650px; */
+    background: #fff;
+    width: 420px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.form .search img {
+    width: 26px;
+    margin: 0 20px;
+}
+
+.form .search input {
+    width: 420px;
+    height: 48px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+.form .search input::placeholder {
+    font-weight: 400;
+    color: #a6a6a6;
+}
+
+.form button {
+    width: 210px;
+    background: #ea1d2c;
+    color: #fff;
+    font-weight: 400;
+    border: 0;
+    border-radius: 4px;
+}
+
+.form button:hover {
+    background: #c2121f;
+}
+
+.slim-card {
+    background-color: #50A773;
+    align-items: center;
+    color: #EFF7F2;
+}
+
+.slim-card button {
+    border: none;
+    background-color: #50A773;
+}

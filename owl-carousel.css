@@ -1,0 +1,32 @@
+.owl-prev,
+.owl-next {
+    width: 15px;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    display: block !important;
+    border: 1px solid black;
+}
+
+.owl-prev {
+    left: -20px;
+}
+
+
+/* .owl-prev button {
+    border: 1px solid #c4c4c4;
+    border-radius: 100%;
+    width: 39px;
+    height: 39px;
+    z-index: 1;
+    background-color: white;
+} */
+
+.owl-next {
+    right: -20px;
+}
+
+.owl-prev i,
+.owl-next i {
+    color: #ccc;
+}
