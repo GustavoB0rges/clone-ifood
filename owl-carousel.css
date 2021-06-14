@@ -12,6 +12,17 @@
     left: -20px;
 }
 
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    border: 1px solid #c4c4c4;
+    border-radius: 100%;
+    width: 39px;
+    height: 39px;
+    z-index: 1;
+    background-color: white;
+}
+
 
 /* .owl-prev button {
     border: 1px solid #c4c4c4;

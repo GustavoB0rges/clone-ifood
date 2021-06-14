@@ -113,6 +113,14 @@
     background-color: #50A773;
     align-items: center;
     color: #EFF7F2;
+    height: 60px;
+}
+
+.slim-card span {
+    font-size: 1.125em;
+    color: white;
+    padding: 0 28px;
+    font-weight: 500;
 }
 
 .slim-card button {
