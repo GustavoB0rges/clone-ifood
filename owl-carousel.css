@@ -18,23 +18,13 @@
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
-    border: 1px solid #c4c4c4;
-    border-radius: 100%;
-    width: 39px;
-    height: 39px;
-    z-index: 1;
-    background: white;
+    border: 1px solid #c4c4c4 !important;
+    border-radius: 100% !important;
+    width: 39px !important;
+    height: 39px !important;
+    z-index: 1 !important;
+    background-color: white !important;
 }
-
-
-/* .owl-prev button {
-    border: 1px solid #c4c4c4;
-    border-radius: 100%;
-    width: 39px;
-    height: 39px;
-    z-index: 1;
-    background-color: white;
-} */
 
 .owl-next {
     right: -20px;
@@ -43,5 +33,11 @@
 
 .owl-prev i,
 .owl-next i {
-    color: #ccc;
+    color: rgb(140, 133, 133);
+    font-size: 30px;
+}
+
+.owl-prev i:hover,
+.owl-next i:hover {
+    color: black;
 }

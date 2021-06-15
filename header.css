@@ -8,6 +8,10 @@
     height: 80px;
 }
 
+.arrow-nav {
+    width: 25px;
+}
+
 .header .logo {
     width: 87px;
     margin-right: auto;
@@ -17,20 +21,24 @@
 }
 
 .restaurant-nav {
-    padding-right: 25px;
-    font-weight: 550;
+    font-weight: 650;
     color: #717171;
     font-size: 1.125rem;
     margin-right: 55px;
 }
 
 .entrega {
-    margin-right: 60px;
-    padding-top: 15px
+    margin-right: 50px;
+    font-size: 0.875rem;
+    color: #3e3e3e;
+    align-items: center;
+    margin-top: 25px;
+    font-weight: 500;
 }
 
 .entrega p {
     font-weight: 500;
+    margin-top: -13px;
 }
 
 .entrega img {

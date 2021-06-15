@@ -40,6 +40,8 @@
                 <div class="restaurant-nav">
                     <img src="assets/images/restaurant.png" alt="imgResta">
                     <span>Restaurante</span>
+                    <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-386 -165)" fill="red" fill-rule="nonzero"><g id="icon_seta_restaurantes" transform="translate(386 165)"><path d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z" id="Path-5-Copy-3"></path></g></g></svg>
+
                 </div>
 
                 <div class="search">
@@ -52,7 +54,10 @@
             <div>
                 <div class="entrega">
                     <span>Entregar em</span>
-                    <p class="d-flex flex-row align-items-center"> <img src="assets/images/home.svg" alt="home"> R. Engenheira Valdirene Martins, 66 </p>
+                    <p class="d-flex flex-row align-items-center"> <img src="assets/images/home.svg" alt="home"> R. Engenheira Valdirene Martins, 66
+                        <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-386 -165)" fill="red" fill-rule="nonzero"><g id="icon_seta_restaurantes" transform="translate(386 165)"><path d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z" id="Path-5-Copy-3"></path></g></g></svg>
+
+                    </p>
                 </div>
             </div>
             <div class="d-flex flex-row align-items-center nav-entrega">
@@ -201,17 +206,35 @@
             </div>
 
             <div>
-                <div>
-                    <h2>Últimas lojas</h2>
+                <div class="filtro-geral">
+                    <h2 class="title-loja">Últimas lojas</h2>
                 </div>
 
                 <div id="owl-carousel4" class="owl-carousel owl-theme">
 
-                    <div class="d-flex flex-row card restaurante-figure ">
-                        <img src="assets/images/AcaiBeat.webp " class="img-card-radius ">
+                    <div class="d-flex flex-row card restaurante-figure">
+                        <img src="assets/images/delicia lili.webp " class="img-card-radius ">
 
                         <div class="contents-cards ">
-                            <span class="title-restaurant ">Açaí Beat...</span>
+                            <span class="title-restaurant ">Delicias da Lili</span>
+                            <div class="cards-restaurant ">
+                                <span class="fa fa-star rating "></span>
+                                <span class="checked ">4.8</span><span> • </span><span>Açai</span><span> •
+                                </span><span>2,7km</span></br>
+                            </div>
+
+                            <div class="cards-restaurant ">
+                                <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
+                                            6,00</span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row card restaurante-figure space-ultimas ">
+                        <img src="assets/images/dk+1.webp" class="img-card-radius ">
+
+                        <div class="contents-cards ">
+                            <span class="title-restaurant ">Dk+1 Lanches e Lanches</span>
                             <div class="cards-restaurant ">
                                 <span class="fa fa-star rating "></span>
                                 <span class="checked ">4.8</span><span> • </span><span>Açai</span><span> •
@@ -226,33 +249,15 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-row card restaurante-figure ">
-                        <img src="assets/images/arisco.webp " class="img-card-radius ">
-
-                        <div class="contents-cards ">
-                            <span class="title-restaurant ">Lanchonete da Fi...</span>
-                            <div class="cards-restaurant ">
-                                <span class="fa fa-star rating "></span><span class="checked ">4.9</span><span> •
-                                </span><span>Lanches</span><span> • </span><span>4,3km</span></br>
-                            </div>
-                            <div class="cards-restaurant ">
-                                <span>40</span><span>-</span><span>50 min</span><span> • </span><span>R$
-                                            9,00</span>
-
-                            </div>
-
-                        </div>
-                    </div>
-
 
                 </div>
 
                 <div class="margin-tb ">
-                    <div>
-                        <h2>Restaurante e mercados</h2>
+                    <div class="space-items">
+                        <h2 class="title-loja ">Restaurantes e mercados</h2>
                     </div>
 
-                    <div class="d-flex flex-row ">
+                    <div class="d-flex flex-row filtro-geral">
 
                         <div class="filtro ">Entrega</div>
                         <div class="filtro ">Cozinhas</div>
@@ -274,7 +279,7 @@
 
                     </div>
                 </div>
-                <div class="d-flex flex-row justify-content-center ">
+                <div class="d-flex flex-row">
                     <div class="d-flex flex-column ">
 
 
@@ -504,7 +509,7 @@
                             <img src="assets/images/bobs.webp " class="img-card-radius ">
 
                             <div class="contents-cards ">
-                                <span class="title-restaurant ">Bob's - Center Shoppi...</span>
+                                <span class="title-restaurant ">Bob's - Center Shopping (Uberaba)</span>
                                 <div class="cards-restaurant ">
                                     <span class="fa fa-star rating "></span><span class="checked ">4.7</span><span> •
                                     </span><span>Lanches</span><span> • </span><span>4,0km</span></br>
@@ -796,7 +801,7 @@
 
                 <div class="d-flex flex-column footer ">
                     <div class="d-flex flex-row justify-content-between cidades ">
-                        <h2>Explore por cidades</h2>
+                        <h2 class="footer-text">Explore por cidades</h2>
                         <a class="d-flex justify-content-end ">Ver todas</a>
                     </div>
 

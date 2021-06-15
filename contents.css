@@ -10,9 +10,18 @@ body {
     scroll-behavior: auto;
 }
 
+.title-loja {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #414143;
+    margin-left: -10px;
+    padding: 0 0 32px;
+}
+
 .margin-contents {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 .card-figura {
@@ -75,6 +84,18 @@ ul {
     color: #FFFFFF;
 }
 
+.space-items {
+    margin-left: 25px;
+}
+
+.filtro-geral {
+    margin-left: 10px;
+    font-size: 1rem;
+    line-height: normal;
+    font-weight: 500;
+    color: #717171;
+}
+
 .filtro {
     border-radius: 22px;
     border: 1px solid #d8d8d8;
@@ -90,11 +111,16 @@ ul {
     margin: 10px;
     border-radius: 3px;
     min-height: 135px;
+    width: 403px;
 }
 
 .card-ultimaslojas {
     border: 1px solid #d8d8d8;
     border-radius: 3px;
+}
+
+.space-ultimas {
+    margin-left: 120px;
 }
 
 .contents-cards {
@@ -111,6 +137,12 @@ ul {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: 600;
+    width: 240px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
 }
 
 .cards-restaurant {
