@@ -22,7 +22,7 @@ $('#owl-carousel1').owlCarousel({
     }
 });
 $('#owl-carousel2').owlCarousel({
-    loop: false,
+    loop: true,
     margin: 10,
     nav: true,
     responsiveClass: true,
@@ -31,16 +31,16 @@ $('#owl-carousel2').owlCarousel({
     dots: false,
     responsive: {
         0: {
-            items: 2,
+            items: 1,
         },
         600: {
-            items: 3,
+            items: 2,
         },
         900: {
-            items: 6,
+            items: 2,
         },
         1300: {
-            items: 4,
+            items: 3,
         }
     }
 });
@@ -65,5 +65,29 @@ $('#owl-carousel3').owlCarousel({
         1300: {
             items: 9,
         }
+    }
+});
+$('#owl-carousel4').owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    responsiveClass: true,
+    navigation: true,
+    navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        900: {
+            items: 3,
+        },
+        1300: {
+            items: 4,
+        }
+
     }
 });
