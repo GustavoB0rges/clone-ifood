@@ -47,6 +47,9 @@ $('#owl-carousel2').owlCarousel({
         },
         1300: {
             items: 3,
+        },
+        2000: {
+            items: 4,
         }
     }
 });
