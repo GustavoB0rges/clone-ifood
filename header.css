@@ -6,10 +6,12 @@
     align-items: center;
     background-color: #F7F7F7;
     height: 80px;
+    border: 1px solid #DCDCDC;
 }
 
 .arrow-nav {
     width: 25px;
+    cursor: pointer;
 }
 
 .header .logo {
@@ -18,6 +20,7 @@
     height: 66px;
     margin-left: 23px;
     align-items: center;
+    cursor: pointer;
 }
 
 .restaurant-nav {
@@ -25,6 +28,7 @@
     color: #717171;
     font-size: 1.125rem;
     margin-right: 55px;
+    cursor: pointer;
 }
 
 .entrega {
@@ -62,9 +66,10 @@
 }
 
 .fixed {
-    /* position: sticky; */
+    position: sticky;
     top: 0;
-    z-index: 0;
+    width: 100%;
+    z-index: 9;
 }
 
 .form {
@@ -134,4 +139,13 @@
 .slim-card button {
     border: none;
     background-color: #50A773;
+}
+
+.popover .popover-arrow::after,
+.popover .popover-arrow::before {
+    position: absolute !important;
+    display: block !important;
+    content: "" !important;
+    border-color: transparent !important;
+    /* border-style: solid; */
 }
