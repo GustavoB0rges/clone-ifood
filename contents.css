@@ -21,7 +21,6 @@ body {
 
 .card-figura {
     width: 372px;
-    height: 200px;
 }
 
 .list {
@@ -173,7 +172,6 @@ ul {
     justify-content: center;
     padding: 20px;
     width: 150.5px;
-    height: 150.5px;
 }
 
 .banner-text {
@@ -186,7 +184,6 @@ ul {
     width: 150.5px;
     height: 150.5;
     max-width: 390px;
-    margin: 0 10px;
     transition: 0.2s;
 }
 
