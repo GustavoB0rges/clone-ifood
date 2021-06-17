@@ -15,13 +15,7 @@ body {
     font-weight: 600;
     letter-spacing: -1px;
     color: #414143;
-    margin-left: -10px;
     padding: 0 0 32px;
-}
-
-.margin-contents {
-    margin-left: 35px;
-    margin-right: 35px;
 }
 
 .card-figura {
@@ -89,7 +83,6 @@ ul {
 }
 
 .filtro-geral {
-    margin-left: 10px;
     font-size: 1rem;
     line-height: normal;
     font-weight: 500;
@@ -107,11 +100,12 @@ ul {
 
 .card {
     border: 1px solid #d8d8d8;
-    padding: 20px;
-    margin: 10px;
+    padding: 0px;
+    margin-top: 0px;
     border-radius: 3px;
     min-height: 135px;
-    width: 403px;
+    flex-direction: row !important;
+    margin-bottom: 30px;
 }
 
 .card-ultimaslojas {
@@ -127,6 +121,7 @@ ul {
     border-left: 1px solid #d8d8d8;
     padding-left: 15px;
     height: 85px;
+    margin-top: 15px;
 }
 
 .gratis {
@@ -137,7 +132,7 @@ ul {
     font-size: 1rem;
     line-height: 1rem;
     font-weight: 600;
-    width: 240px;
+    width: 200px;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
@@ -164,6 +159,9 @@ ul {
     height: 85px;
     max-width: 90px;
     margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid #F7F7F7;
 }
 
 .margin-tb {
