@@ -28,47 +28,66 @@
 </head>
 
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
 
     <main>
-        <header class="header fixed">
+        <div class="background-header fixed">
 
 
-            <div class="form d-flex align-items-center">
-                <img src="assets/images/logo.svg" class="logo" />
+            <header class="header container">
 
-                <div class="restaurant-nav">
-                    <img src="assets/images/restaurant.png" alt="imgResta">
-                    <span>Restaurante</span>
-                    <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" data-toggle="popover" data-bs-placement="bottom" title="Popover"><g transform="translate(-386 -165)" fill="red" fill-rule="nonzero"><g id="icon_seta_restaurantes" transform="translate(386 165)"><path d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z" id="Path-5-Copy-3"></path></g></g></svg>
 
+                <div class="form d-flex align-items-center">
+                    <img src="assets/images/logo.svg" class="logo" />
+
+                    <div class="restaurant-nav">
+                        <img src="assets/images/restaurant.png" alt="imgResta">
+                        <span class="restaurante-header">Restaurante</span>
+                        <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" data-toggle="popover" data-bs-placement="bottom" title="Popover">
+                            <g transform="translate(-386 -165)" fill="red" fill-rule="nonzero">
+                                <g id="icon_seta_restaurantes" transform="translate(386 165)">
+                                    <path
+                                        d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z"
+                                        id="Path-5-Copy-3"></path>
+                                </g>
+                            </g>
+                        </svg>
+
+                    </div>
+
+
+                    <div class="search">
+                        <img src="assets/images/search.svg" alt="" />
+                        <input type="text" placeholder="Busque por item ou loja" />
+                    </div>
                 </div>
 
 
-                <div class="search">
-                    <img src="assets/images/search.svg" alt="" />
-                    <input type="text" placeholder="Busque por item ou loja" />
+                <div>
+                    <div class="entrega">
+                        <span>Entregar em</span>
+                        <p class="d-flex flex-row align-items-center"> <img src="assets/images/home.svg" alt="home"> R. Engenheira Valdirene Martins, 66
+                            <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <g transform="translate(-386 -165)" fill="red" fill-rule="nonzero">
+                                    <g id="icon_seta_restaurantes" transform="translate(386 165)">
+                                        <path
+                                            d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z"
+                                            id="Path-5-Copy-3"></path>
+                                    </g>
+                                </g>
+                            </svg>
+
+                        </p>
+                    </div>
                 </div>
-            </div>
+                <div class="d-flex flex-row align-items-center nav-entrega">
+                    <img src="assets/images/sale.png" class="nav-img">
+                    <img src="assets/images/profile.png">
+                    <img src="assets/images/sacola.png" class="nav-img">
 
-
-            <div>
-                <div class="entrega">
-                    <span>Entregar em</span>
-                    <p class="d-flex flex-row align-items-center"> <img src="assets/images/home.svg" alt="home"> R. Engenheira Valdirene Martins, 66
-                        <svg class="arrow-nav" width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-386 -165)" fill="red" fill-rule="nonzero"><g id="icon_seta_restaurantes" transform="translate(386 165)"><path d="M17.414 18.548a2.099 2.099 0 0 0-2.828 0 1.787 1.787 0 0 0 0 2.646L24 30l9.414-8.806a1.787 1.787 0 0 0 0-2.646 2.099 2.099 0 0 0-2.828 0L24 24.708l-6.586-6.16z" id="Path-5-Copy-3"></path></g></g></svg>
-
-                    </p>
                 </div>
-            </div>
-            <div class="d-flex flex-row align-items-center nav-entrega">
-                <img src="assets/images/sale.png">
-                <img src="assets/images/profile.png">
-                <img src="assets/images/sacola.png">
-
-            </div>
-        </header>
+            </header>
+        </div>
 
         <div>
             <div class="d-flex justify-content-center slim-card">
@@ -118,7 +137,12 @@
 
 
                 <span>Você tem 8 cupons! Aproveite seus descontos</span>
-                <button type="button" tabindex="0" class="btn-icon btn-icon--primary btn-icon--size-m btn-icon--transparent" aria-hidden="false" aria-label="Fechar"><span class="icon-marmita icon-marmita--chevron-down"><svg width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M.186.274A.762.762 0 0 1 1.273.19L9 6.931 16.727.19a.762.762 0 0 1 1.087.085c.277.33.24.825-.083 1.108L9 9 .27 1.382A.795.795 0 0 1 .185.274z" fill="#fff"></path></svg></span></button>
+                <button type="button" tabindex="0" class="btn-icon btn-icon--primary btn-icon--size-m btn-icon--transparent" aria-hidden="false" aria-label="Fechar"><span class="icon-marmita icon-marmita--chevron-down"><svg width="18" height="9"
+                            viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M.186.274A.762.762 0 0 1 1.273.19L9 6.931 16.727.19a.762.762 0 0 1 1.087.085c.277.33.24.825-.083 1.108L9 9 .27 1.382A.795.795 0 0 1 .185.274z"
+                                fill="#fff"></path>
+                        </svg></span></button>
             </div>
         </div>
         </div>
@@ -222,12 +246,12 @@
                             <div class="cards-restaurant ">
                                 <span class="fa fa-star rating "></span>
                                 <span class="checked ">4.8</span><span> • </span><span>Açai</span><span> •
-                                        </span><span>2,7km</span></br>
+                                </span><span>2,7km</span></br>
                             </div>
 
                             <div class="cards-restaurant ">
                                 <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
-                                            6,00</span>
+                                    6,00</span>
 
                             </div>
                         </div>
@@ -242,11 +266,11 @@
                             <span class="title-restaurant ">Macarrão e Cia</span>
                             <div class="cards-restaurant ">
                                 <span class="fa fa-star rating "></span><span class="checked ">4.6</span><span> •
-                                        </span><span>Italiana</span><span> • </span><span>2,3km</span></br>
+                                </span><span>Italiana</span><span> • </span><span>2,3km</span></br>
                             </div>
                             <div class="cards-restaurant">
                                 <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
-                                            7,00</span>
+                                    7,00</span>
                             </div>
                         </div>
                     </div>
@@ -284,7 +308,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
 
                         <div class="card restaurante-figure ">
                             <img src="assets/images/AcaiBeat.webp " class="img-card-radius ">
@@ -305,7 +329,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
 
                         <div class="card restaurante-figure ">
                             <img src="assets/images/Macarrao e cia.webp " class="img-card-radius ">
@@ -323,7 +347,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/alex.webp " class="img-card-radius ">
 
@@ -335,13 +359,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
-                                    8,00</span>
+                                        8,00</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/brasileirinho.webp " class="img-card-radius ">
 
@@ -361,7 +385,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/don bacon.webp " class="img-card-radius ">
 
@@ -378,7 +402,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/ilha acai.webp " class="img-card-radius ">
 
@@ -390,13 +414,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>48</span><span>-</span><span>58 min</span><span> • </span><span>R$
-                                    15,49</span>
+                                        15,49</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/batata chefe.webp " class="img-card-radius ">
 
@@ -415,7 +439,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/quibe do ze.webp " class="img-card-radius ">
 
@@ -432,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/mousse.webp " class="img-card-radius ">
 
@@ -444,13 +468,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>48</span><span>-</span><span>58 min</span><span> • </span><span>R$
-                                    10,49</span>
+                                        10,49</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/trailer do acai.webp " class="img-card-radius ">
 
@@ -467,7 +491,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/bobs.webp " class="img-card-radius ">
 
@@ -484,7 +508,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/mcDonalds.webp " class="img-card-radius ">
 
@@ -496,13 +520,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>26</span><span>-</span><span>36 min</span><span> • </span><span>R$
-                                    9,49</span>
+                                        9,49</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/Bk.webp " class="img-card-radius ">
 
@@ -519,7 +543,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/chiquinho.webp " class="img-card-radius ">
 
@@ -531,13 +555,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>22</span><span>-</span><span>32 min</span><span> • </span><span>R$
-                                    8,49</span>
+                                        8,49</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/flavin.webp " class="img-card-radius ">
 
@@ -549,13 +573,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>60</span><span>-</span><span>70 min</span><span> • </span><span>R$
-                                    6,00</span>
+                                        6,00</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/trilhas do acai.webp " class="img-card-radius ">
 
@@ -573,7 +597,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/dk+1.webp " class="img-card-radius ">
 
@@ -590,7 +614,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/delicia lili.webp " class="img-card-radius ">
 
@@ -602,13 +626,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>60</span><span>-</span><span>70
-                                    min</span><span> • </span><span class="gratis ">Grátis</span>
+                                        min</span><span> • </span><span class="gratis ">Grátis</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/trem minero.webp " class="img-card-radius ">
 
@@ -620,12 +644,12 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
-                                    9,00</span>
+                                        9,00</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/japanes.webp " class="img-card-radius ">
 
@@ -642,7 +666,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/nagai.webp " class="img-card-radius ">
 
@@ -654,13 +678,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>70</span><span>-</span><span>80 min</span><span> • </span><span>R$
-                                    10,00</span>
+                                        10,00</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/pitbull.webp " class="img-card-radius ">
 
@@ -677,7 +701,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/frozen.webp " class="img-card-radius ">
 
@@ -689,13 +713,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>53</span><span>-</span><span>63 min</span><span> • </span><span>R$
-                                    5,99</span>
+                                        5,99</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/hot chicken.webp " class="img-card-radius ">
 
@@ -714,7 +738,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/cascata.webp " class="img-card-radius ">
 
@@ -731,7 +755,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/toca do peixe.webp " class="img-card-radius ">
 
@@ -743,13 +767,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>40</span><span>-</span><span>50 min</span><span> • </span><span>R$
-                                    9,00</span>
+                                        9,00</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/toca peixe.webp " class="img-card-radius ">
 
@@ -768,7 +792,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/arisco.webp " class="img-card-radius ">
 
@@ -785,7 +809,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/padrinho.webp " class="img-card-radius ">
 
@@ -797,13 +821,13 @@
                                 </div>
                                 <div class="cards-restaurant">
                                     <span>30</span><span>-</span><span>40
-                                    min</span><span> • </span><span class="gratis ">Grátis</span>
+                                        min</span><span> • </span><span class="gratis ">Grátis</span>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4 ">
+                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-4 ">
                         <div class="card restaurante-figure ">
                             <img src="assets/images/pastelito.webp " class="img-card-radius ">
 
@@ -925,7 +949,8 @@
                             <div class="d-flex flex-row list ">
                                 <li class="footer__text-link footer-icon ">
                                     <svg xmlns="http://www.w3.org/2000/svg " width="30 " height="30 " fill="currentColor " class="bi bi-facebook " viewBox="0 0 16 16 ">
-                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993
+                                        <path
+                                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993
                                     0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z " />
                                     </svg>
                                 </li>

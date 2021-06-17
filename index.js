@@ -1,9 +1,3 @@
-var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
-var popoverList = popoverTriggerList.map(function(popoverTrigger) {
-    return new bootstrap.Popover(popoverTrigger);
-});
-
-
 $('#owl-carousel1').owlCarousel({
     loop: false,
     margin: 10,
@@ -92,10 +86,10 @@ $('#owl-carousel4').owlCarousel({
             items: 2,
         },
         900: {
-            items: 3,
+            items: 2,
         },
         1300: {
-            items: 4,
+            items: 3,
         }
 
     }

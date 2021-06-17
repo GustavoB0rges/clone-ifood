@@ -1,12 +1,107 @@
 .header {
-    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 12px;
     align-items: center;
-    background-color: #F7F7F7;
     height: 80px;
+    justify-content: space-between;
+    max-width: 1378px !important;
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1167px) {
+    .restaurant-nav {
+        font-weight: 650;
+        color: #717171;
+        font-size: 1.125rem;
+        display: flex;
+        cursor: pointer;
+        flex-direction: row;
+    }
+    .restaurante-header {
+        margin-top: 8px;
+    }
+    .restaurant-nav {
+        font-weight: 650 !important;
+        color: #717171 !important;
+        font-size: 1.125rem !important;
+        margin-right: 0px !important;
+        cursor: pointer !important;
+    }
+    .entrega p {
+        font-weight: 500;
+        margin-top: -13px;
+        width: 284px;
+        height: 43px;
+    }
+    .form .search {
+        background: #fff !important;
+        width: 300px !important;
+        height: 48px !important;
+        border-radius: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .form .search input {
+        width: 230px !important;
+    }
+    .nav-img {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width:1061px) and (max-device-width:1280px) {
+    .restaurant-nav {
+        font-weight: 650;
+        color: #717171;
+        font-size: 1.125rem;
+        display: flex;
+        cursor: pointer;
+        flex-direction: row;
+    }
+    .restaurante-header {
+        margin-top: 8px;
+    }
+    .restaurant-nav {
+        font-weight: 650 !important;
+        color: #717171 !important;
+        font-size: 1.125rem !important;
+        margin-right: 0px !important;
+        cursor: pointer !important;
+    }
+    .entrega {
+        font-size: 0.875rem !important;
+        color: #3e3e3e !important;
+        align-items: center !important;
+        font-weight: 500 !important;
+        margin-top: 20px !important;
+        margin-left: 50px !important;
+    }
+    .entrega p {
+        font-weight: 500;
+        margin-top: -13px;
+        width: 284px;
+        height: 43px;
+    }
+    .form .search {
+        background: #fff !important;
+        width: 350px !important;
+        height: 48px !important;
+        border-radius: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    .form .search input {
+        width: 230px !important;
+    }
+}
+
+.background-header {
+    background-color: #F7F7F7;
     border: 1px solid #DCDCDC;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
 
 .arrow-nav {
@@ -64,13 +159,6 @@
     cursor: pointer;
 }
 
-.fixed {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 9;
-}
-
 .form {
     width: 100%;
     max-width: 800px;
@@ -79,8 +167,6 @@
 }
 
 .form .search {
-    /* width: 100%; */
-    /* max-width: 650px; */
     background: #fff;
     width: 420px;
     height: 48px;
